@@ -1,0 +1,865 @@
+body{
+    padding-left: 0px;
+    padding-right:0px;
+    border:0;
+    margin:0;
+    font-family: Arial;
+}
+.mainimg{background-color: rgb(244,244,245);
+   padding:20px 20px;
+   padding-bottom: 40px;
+
+/* background-repeat: no-repeat;
+background-size: cover; */
+}
+a{
+   color:#f5f5f6;
+   text-decoration:none;
+
+}
+
+.nav-icon{
+   font-size:1em;
+    justify-content: space-between;
+   display: flex;
+   flex-wrap: wrap;
+    gap: 40px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top:30px;
+    
+    }
+   /* .sticky{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    }  */
+    .text-img{
+        display: flex;
+        gap:10px;
+    }
+    .rotated-text{
+      transform: rotate(270deg);
+   text-align: center;
+   margin: 0px;
+   padding-bottom: 460px;
+   padding-top: px;
+   padding-right: 0px;
+   padding-left: 80px;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        color:black;
+       font-style: normal;
+
+    }
+    a{
+        color: black;
+    }
+    .btn1{
+      padding-right: 65px;
+      align-items: flex-end;
+    }
+   button{
+        border:none;
+        border-radius: 0;
+        background-color: #0076ff;
+        padding:12px,20px;
+        /* size:30px; */
+        color:white;
+        display:flex;
+        cursor:pointer;
+    
+        /* flex-direction: row column; */
+        justify-content: space-between;
+        gap:7px;
+
+        text-align: center;
+        align-items:center;
+       
+        height:30px;
+        transition: background-color o.3s ease;
+        
+        
+        
+    }
+    button:hover{
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
+     button.img{
+        width:20px;
+        height:40px;
+        background-color: white;
+   
+        
+     }
+     .shoping-icon{
+color:white;
+     }
+     div.image-product{
+        display: flex;
+        gap:20px;
+     }
+     .section-one{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 3rem;
+         padding-left: 45px;
+    padding-right:60px;
+    justify-content: space-between;
+    gap: 20px;
+     }
+     h2{
+        font-size: 50px;
+     }
+     .sub{
+text-align: center;
+padding-top: 50px;
+     }
+     /* h4{
+        font-size: 20px;
+        display:flex;
+        flex-direction:row ;
+     } */
+     .first-side{
+       display: inline-block;
+       /* padding-left: 100px; */
+
+     }
+     .logo-section{
+      padding-right: 30px;
+    padding-left: 30px;  
+    padding-top: 50px;
+  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+     gap:10px;
+     flex-direction: row;
+     -ms-flex-item-align: start;
+    }
+    .logo-section:hover{
+      transform:rotate(-2turn)
+    }
+
+    .section-two{
+       display:flex;
+       flex-direction: row;
+        padding-top: 80px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    display: flex;
+    }
+    /* .h4{
+      display: flex;
+      flex-direction: row;
+    } */
+    .side-part{
+        /* padding-bottom: 300px;
+        padding-left: 30px;
+        padding-right: 40px;
+        justify-content: space-between;
+         padding-top: 30px;  */
+         display: flex;
+         flex-direction: row;
+         gap:30px;
+    
+       
+    }
+ 
+    
+    .side-part1{
+     
+           /* padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 30px;
+          justify-content: space-between; */
+            display: flex;
+            flex-direction: row;
+         gap:20px;
+    
+      
+    }
+    
+    section {
+      display: flex;
+        /* padding-top: 80px; */
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: px;
+    justify-content: space-between;
+    gap:px;
+    animation: fadein 1s
+    ease-in-out; 
+
+    }
+    @keyframes fadein{
+      from {opacity:0;}
+      to{opacity:1;}
+      
+      
+    }
+
+    ul {
+      gap:20px;
+    }
+    .market1{
+       display: flex;
+       gap:20px;
+    }
+    .market{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 50px;
+      /* padding-bottom: 0px; */
+      align-items: center;
+      text-align: center;
+      padding: 20px 40px;
+      padding-bottom: 100px;
+      justify-content: space-between;
+    }
+    .saleone{
+      display:flex;
+      flex-direction: column;
+      padding: 0%;
+    }
+
+      .price{
+      display: flex;
+      color:grey;
+      gap: 50px;
+      row-gap: 0;
+      padding-bottom: 0px;
+      padding-top: 0;
+      align-items: center;
+      padding-left: 20px;
+      padding-right: 20px;
+   justify-content: space-between;
+   
+   }
+   .prices{
+      color:black;
+   }
+   .nav-button{
+      display:flex;
+      flex-wrap:wrap;
+      font-size:15px;
+        justify-content:space-between;
+   }
+
+
+
+
+      /* justify-content: space-between; */
+    /* h2 h4 {
+     text-align: center;
+      font-size: 60px;
+    } */
+
+
+    /* .text{
+      display: flex;
+      justify-content: space-between;
+    }
+      .text1{
+         display: flex;
+         gap: 30px;
+      }
+      .two{
+         display: flex;
+         gap:20px;
+         
+      }
+      .image{
+         gap:40px;
+         margin-bottom: 30px;
+         justify-content: 20px;
+      
+      }
+      .more{
+         display: flex;
+         gap:30px;
+         border-bottom-right-radius: 30px;
+      } */
+
+.first-text{
+   display: flex;
+   gap: 20px;
+   padding-top: 20px;
+   list-style-type: none;
+   margin: none;
+ 
+}
+
+@media (max-width:768px){
+   .nav-icon{
+      gap: 3px;
+       grid-template-columns: repeat(1,1fr);
+       grid-column: column;
+       font-size: smaller;
+   }
+   .item-search{
+      font-size:10px;
+      display:flex;
+      flex-wrap:wrap;
+      gap: 10px;
+   }
+   .first-text{
+       h4{
+        font-size: 1em;
+        font-weight: lighter;
+
+   }
+
+     
+   }
+ @media only screen and (max-width: 740px){
+   li{
+      font-weight: lighter;
+      font-size: 1em;
+      display: grid;
+ grid-template-columns: 1fr;
+   }
+   .logo-section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+ }
+ /* @media only screen and (max-width: 344px){
+    .cat-pic img{
+   width: 80%;
+   height: 30px;
+    padding-left: px;
+}
+} */
+
+@media only screen and (max-width: 600px){
+  h2{
+        font-size: 1em;
+       
+   }
+   div.footercontent{
+    padding: 0px;
+    font-size: 12px;
+  
+   }
+   img.payment-ico{
+
+width:100px;
+   }
+   div.footer{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ padding-right:0px ;
+ padding-left: 0px;
+
+ flex-wrap: wrap;
+ justify-content:left;
+ flex-direction: row;
+ color: #0056b3;
+     }
+   input.mailer{
+    padding-left: 18px;
+   }
+hr.mar-hr{
+    margin: 3px;
+ 
+   }
+   div.libary{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding: 70px;
+    align-items: center;
+ 
+
+   justify-content:space-between;
+   
+ }
+       h4{
+        font-size: 1em;
+        font-weight: lighter;
+
+   }
+    a {
+         font-size: 1em;
+         gap: 10px;
+         display: flex;
+           flex-direction: column;
+
+      }
+      
+ div.mar {
+ display: grid;
+ gap:20px;
+ row-gap: 20px;
+ grid-template-columns: repeat (auto-fill, minmax (1 1fr));
+ grid-template-columns:3fr ;
+  grid-column: 1/1;
+  column-gap:-50px
+  
+    }
+        .cat-pic{
+padding-left: 50px;
+display: flex;
+width: fit-content;
+align-content: center;
+
+   
+   }
+h4.rotated{
+ color: #0056b3;
+ font-size: 12px;
+ padding-top: 7px;
+}
+   .cat-pic img{
+   width: 90%;
+   height: 330px;
+    padding-left: 80px;
+}
+    .btn1{
+      padding-right: 3px;
+      align-items: flex-end;
+      text-align: center;
+      color: yellow;
+    }
+
+
+}
+.bgimg{
+   background-image: url(background.png);
+   background-size:cover;
+   width: 100%;
+   height: 450px;
+   /* display: flex; */
+
+
+   /* display: cover;
+   width:100%; 
+   height:400px; */
+   
+}
+}
+.new11{
+   display: flex;
+   flex-direction: row;
+}
+.lorem{padding-bottom: 150px;}
+.newtext {display: flex;
+   flex-direction:column ;
+
+justify-content: space-between;
+padding-left:500px;
+padding-top: 20px;
+background-image: url(background.png);
+background-size: cover;
+color: white;
+  width: auto;
+   height: 400px;
+}
+.newtext h2{
+   padding-top: 80px;
+   gap: 40px;
+   text-align: center;
+}
+.section2{
+   background-color:  rgb(244,244,245);;
+   padding-bottom :50px;
+
+}
+.sub{
+   padding-bottom:20px;
+   font-size:30px
+}
+.section2image{
+   display: flex;
+   flex-direction: row;
+   flex-wrap:wrap;
+   justify-content:center;
+   padding: 12px 20px;
+   gap: 10px;
+   box-sizing: border-box;
+
+
+}
+.newsletter{
+   display: flex;
+   flex-direction:row;
+justify-content: center;
+gap:30px;
+}
+
+@media (max-width: 768px){
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .zere{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height:50px;
+    }
+    div.container{
+           display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+   padding: 10px 10px 0px 60px;
+      align-content: center;
+   text-align: center;
+ }
+    }
+    .menu{
+        gap:12px;
+    }
+   .image-m1{
+      grid-template-columns: repeat(1,1fr);
+   }
+ .first-text{
+   display:flex;
+   flex-wrap:wrap;  
+   }
+ 
+
+ input{
+   background: scroll;
+   border: none;
+   color:white;
+ }
+ .libary{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 70px;
+ cursor: pointer;
+
+   justify-content:space-between;
+   
+ }
+ .social-icon{
+   padding-top:5px;
+   gap:30px;
+   display:flex;
+ }
+/* this is where i add my hover to the images */
+ /* img{
+   transition:1s;
+ }
+ img:hover{
+   transform: scale(1.05);
+ } */
+
+.rotated{
+    transform: rotate(-0.25turn);
+text-align: center;
+  transform-origin: left;
+  padding-left: 50px;
+}
+
+ .cat-pic{
+   display: grid;
+   grid-template-columns: repeat(1fr);
+   align-items: center;
+   margin: 0px;
+   border: 0px;
+   padding-left: 0px;
+   align-items: center;
+   align-content: center;
+ }
+ .image-m1{
+   
+   display:flex;
+   flex-wrap: wrap;
+   gap:30px;
+   /* align-content: center;
+   align-items: center; */
+   /* align-items: center; */
+   justify-content: center;
+ 
+/* grid-template-columns: repeat (auto-fill, minmax (1fr 1fr));
+grid-template-rows: 1fr; */
+   padding-top: 50px;
+ 
+  
+ }
+
+
+ .mar {
+ display: grid;
+ gap:20px;
+ row-gap: 20px;
+ grid-template-columns: repeat (auto-fill, minmax (50px, 1fr));
+ grid-template-columns: 3fr 3fr ;
+  grid-column: 1/1;
+  column-gap:-50px
+  /* align-items center; */
+  /* align-content center;  */
+  
+    }
+ 
+  /* grid-template-rows:(auto-fill, minmax (200px, 2fr));
+
+ 
+   grid-gap: 25px; */
+
+
+  .footer{
+ display: grid;
+    grid-template-columns: repeat(3,1fr);
+    flex-wrap: wrap;
+   justify-content:space-between;
+   background-color:black;
+   color:white;
+   align-items:center;
+   padding:20px;
+   cursor:pointer;
+ }
+ .footercontent{
+   padding-right:90px;
+   padding-left:90px;
+    cursor:pointer;
+ }
+ .container{
+   /* display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   align-content: center;
+   text-align: center;
+   gap:10px;
+   padding: 10px 10px 0px 60px; */
+
+
+     display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+   padding: 10px 10px 0px 60px;
+      align-content: center;
+   text-align: center;
+ }
+ /* .col{
+   align-items: center;
+   align-content: center;
+ 
+ } */
+ .sub-category {
+   display: grid;
+   /* flex-wrap:wrap;
+   flex-direction: center; */
+grid-template-columns:1fr 1fr;
+gap: 0px;
+
+
+ }
+
+ .sub-category p{
+text-align: right;
+color:black;
+align-content: center;
+font-size:12px;
+margin:0px;
+
+ }
+ .sub-category p.dr{
+   color:grey;
+   font-size: 12px;
+   text-align:left;
+ }
+
+ .col h3{
+  font-size: 15px;
+  text-align: left;
+  padding: 0px;
+
+ }
+ .img-container{
+  position:relative;
+  display:inline-block;
+ }
+ .zara-image{
+  display: block;
+  width: 100%;
+  height: auto;
+ }
+ .overlay-text{
+  position: absolute;
+  top: 35%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: rgba(0,0,0,0.5);
+ }
+ .logo-text-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ }
+ .zara-logo{
+  height:130px;
+  width: auto;
+  position: absolute;
+  top: 8px;
+right: 3px;
+ }
+.unlay{
+  display: flex;
+
+  flex-direction: row;
+}
+/* .top-sale{
+  
+  text-align:left;
+  color: white;
+  background-color: black;
+  padding: 5px 20px 5px 20px;
+  max-width: fit-content;
+  transform: rotateY('angle');
+
+
+}
+.div-sale{
+  display: grid;
+  
+}
+.span{
+  padding: 50px 10px;
+} */
+
+ 
+@media (max-width: 600px) {
+  .overlay {
+    width: 95%;
+    right: 2.5%;
+    padding: 1rem;
+  }
+
+  .zere {
+    width: 50px;
+    height: 50px;
+  }
+  .newtext{
+    padding-top: 30px;
+  }
+  .div.new11{
+    align-items:center;
+    text-align: right;
+    padding: 0px;
+  }
+  img.zere{
+    align-items: center;
+    padding-left: 0px;
+  }
+  p{
+     padding-left: 100px;
+  }
+  h2{
+    text-align: right;
+    padding-left: 100px;
+  }
+button{
+  margin-left: 100px;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;     /* everything starts from left-to-right inside the right half */
+  padding: 2rem 1.5rem;
+  color: white;
+  box-sizing: border-box;
+  gap: 16px;
+}
+
+.new11 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;          /* vertically centers logo and text beside each other */
+  justify-content: flex-start;  /* starts from left within the right column */
+  gap: 10px;                    /* space between logo and "ZARA" text */
+  width: 100%;
+}
+
+.zere {
+  width: 40px;                  /* smaller logo */
+  height: 40px;
+  object-fit: contain;
+
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;          /* stops "ZARA" from wrapping */
+}
+
+.lorem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;      /* text and button start from the left within the right column */
+  text-align: left;
+  gap: 16px;
+  width: 100%;
+  padding-left: 500px;
+}
+
+p {
+  font-size: clamp(5px, 0.5vw, 12px);
+  margin: 0;
+  line-height: 1.6;
+}
+
+button {
+  border: none;
+  border-radius: 0;
+  background-color: #0076ff;
+  color: white;
+  padding: 8px 20px;
+  height: 30px;
+  border-radius: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;       /* button starts from the left, not stretched */
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
+.newtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;        /* pushes children to the right */
+  padding: 20px 2rem;
+  background-image: url(background.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  width: 100%;
+  min-height: 500px;
+  box-sizing: border-box;
+  position: relative;
+  padding-bottom: 30px; /* adds space at the bottom for the button */
+  padding-top: 30px;
+}
+}
